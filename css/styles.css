@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3e2723; /* Dark Mocha color */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#startButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #e91e63; /* Pink color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background-color: #d81b60;
+}
